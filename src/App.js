@@ -23,7 +23,9 @@ import { ColorModeSwitcher } from './ColorModeSwitcher';
 function App() {
   return (
     <ChakraProvider theme={theme}>
-      <ColorModeSwitcher />
+      <Flex p={3} w="full" justifyContent="center">
+        <ColorModeSwitcher border="2px solid black" />
+      </Flex>
       <Container maxW="container.xl" p={0}>
         <Flex h="100vh" py={[0, 10, 20]}>
           <VStack w="full" h="full" p={10} spacing={10} alignItems="flex-start">
