@@ -3,10 +3,7 @@ import {
   ChakraProvider,
   Box,
   Text,
-  Link,
   VStack,
-  Code,
-  Grid,
   theme,
   Container,
   Flex,
@@ -19,14 +16,9 @@ import {
   Select,
   Checkbox,
   Button,
-  Spacer,
-  SkeletonCircle,
-  SkeletonText,
   Divider,
-  useColorMode,
 } from '@chakra-ui/react';
 import { ColorModeSwitcher } from './ColorModeSwitcher';
-import { Logo } from './Logo';
 
 function App() {
   return (
